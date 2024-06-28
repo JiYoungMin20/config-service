@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: config-service
-          image: config-service
+          image: ymji6922/config-service:0.1
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
