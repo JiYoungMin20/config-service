@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: config-service
-          image: ymji6922/config-service:0.1
+          image: ghcr.io/jiyoungmin20/config-service:latest
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
